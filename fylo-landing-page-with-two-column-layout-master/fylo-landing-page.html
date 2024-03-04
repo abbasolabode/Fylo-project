@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abbas Olabode" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="flex-container-navigation">
+      <div class="logo-header">
+        <img
+          src="/fylo-landing-page-with-two-column-layout-master/images/logo.svg"
+          alt="logo"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="features.html" target="_blank">Features</a>
+          </li>
+          <li>
+            <a href="team.html" target="_blank">Team</a>
+          </li>
+          <li>
+            <a href="sign-in.html" target="_blank">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex-hero-container">
+      <div class="hero-container">
+        <img
+          src="/fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg"
+          alt="illustration icon"
+        /> 
+      </div>
+
+
+      <div id="bottom-cta">
+        <div class="header-paratext-hero">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>
+            Fylo stores your most important files in one secure location. Access
+           them whenever you need, share and collaborate with friends, family,
+           and co-workers.
+          </p>
+        </div>
+
+        <!-- button -->
+        <div class="btn-input">
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Enter your email"
+         />
+          <button type="submit">Get Started</button>
+        </div>
+      </div>
+
+    </section>
+
+    
+    <!--Testimonial-->
+    <Section class="flex-container">
+      <!-- Top container -->
+      
+      <div class="container-image">
+        <img src="/fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg" alt="Illustration image">
+      </div>
+      
+      
+      <!-- Bottom container-->
+      <div class="avatar-wrapper-container">
+        <div class="container-text">
+          <h2>Stay productive, wherever you are</h2>
+          <p>Never let location be an issue when accessing your files, Fylo has you <span>covered for all your file storage needs.</span> <br><br>Securely share files and folders with friends, family and colleagues for <span>live collaboration. No email attachments required!</span></p>
+        </div>
+
+        <div class="container-arrow">
+          <a href="#">See how Fylo works</a>
+          <img src="/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg" alt="Arrow icon">
+        </div>
+
+
+        <!-- Testimonial part -->
+        <div class="testimonial-container">
+          <div class="wrapper-quote-para">
+            <img src="/fylo-landing-page-with-two-column-layout-master/images/icon-quotes.svg" alt="Qoutation mark">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="avatar-name-cta">
+              <img src="/fylo-landing-page-with-two-column-layout-master/images/avatar-testimonial.jpg" alt="avatar">
+
+              <!--Avatar name/Position/company-->
+             <div class="avatar-name-position">
+               <span class="name">Kyle Burton</span>
+                <span>Founder & CEO, huddle</span>
+             </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </Section>
+     
+
+    <!-- Sign up part -->
+    <section class="flex-sign-up-container">
+      <div class="get-access-cta">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is <span>extremely generous. If you have any questions, our support team</span> <span>would be happy to help you.</span></p>
+      </div>
+      
+      <!-- button/input -->
+      <div class="btn-input-cta">
+        <input type="email" name="email" id="email" placeholder="email@example.com">
+        <button type="submit">Get Started For Free</button>
+    </section>
+
+
+
+    <!-- Footer-->
+    <footer class="flex-footer-container">
+
+      <!-- Logo -->
+      <div class="footer-logo-cta">
+        <img src="/fylo-landing-page-with-two-column-layout-master/images/footer-logo.svg" alt="logo">
+        
+        <!-- icon1 -->
+        <div class="icon first-icon">
+          <ion-icon name="call-outline"></ion-icon>
+          <label for="phone">Phone:</label>
+          <a href="telto:+15431234567">+1-543-123-4567</a>
+        </div>
+
+
+        <div class="icon second-icon"> 
+          <ion-icon name="mail-outline"></ion-icon>
+          <label for="email">Email:</label>
+          <a href="mailto:example@fylo.com">example@fylo.com</a>
+        </div>
+      </div>
+
+      <!-- Navigation Links-->
+      <div class="wrapper-nav">
+        <ul class="navbar">
+          <li class="list">
+            <a href="about-us.html" target="_blank">About Us</a>
+          </li>
+          <li class="list">
+            <a href="jobs.html" target="_blank">Jobs</a>
+          </li>
+          <li class="list">
+            <a href="press.html" target="_blank">Press</a>
+          </li>
+          <li class="list">
+            <a href="blog.html" target="_blank">Blog</a>
+          </li>
+        </ul>
+      </div>
+    
+    
+     <!-- Contact -->
+     <div class="footer-contact-container">
+      <ul class="contact-navbar">
+        <li class="list">
+          <a href="contact-us.html" target="_blank">Contact Us</a>
+        </li>
+        <li class="list">
+          <a href="terms.html" target="_blank">Terms</a>
+        </li>
+        <li class="list">
+          <a href="privacy.html" target="_blank">Privacy</a>
+        </li>
+      </ul>
+     </div>
+
+
+      <!--Social Links-->
+      <div class="social-links">
+        <div class="social-icons">
+          <span>
+            <a href="htttps://facebook.com" target="_blank"><ion-icon name="logo-facebook" class="ion-icon"></ion-icon></a>
+          </span>
+          <span>
+           <a href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter" class="ion-icon"></ion-icon></a>
+          </span>
+          <span>
+            <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram" class="ion-icon"></ion-icon></a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
